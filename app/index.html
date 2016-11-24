@@ -1,0 +1,216 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Dev</a>
+    </div>
+    <ul class="mb-menu">
+      <li>
+        <a data-toggle="navbar-cart" class="collapse-toggle mi-cart"></a>
+      </li>
+      <li>
+        <a data-toggle="navbar-account" class="collapse-toggle mi-user"></a>
+      </li>
+      <li>
+        <a data-toggle="navbar-search" class="collapse-toggle mi-search"></a>
+      </li>
+    </ul>
+    <div data-target="navbar-account" id="navbar-account" class="dt-item collapse-item">
+      <ul class="links">
+        <li class="first"><a href="#login" title="Sign In">Sign In</a></li>
+        <li class=" last"><a href="#login" title="Register">Register</a></li>
+      </ul>
+    </div>
+    <div data-target="navbar-cart" id="navbar-cart" class="dt-item collapse-item">
+      <ul class="links">
+        <li class="first last">
+          <a title="Cart" class="chart-link mi-cart">
+            Cart
+            <span class="cart-amount empty">0</span>
+          </a>
+        </li>
+      </ul>
+      <div class="cart-items-wrapper">
+        <div class="cart-items">
+          <p class="empty">Your cart is empty.</p>
+          <!-- <p class="summary cart-label">1 item in your cart:</p>
+           <ol id="cart-item-list">
+             <li class="item">
+               <a class="product-name" href="#productlink">Purple Apple</a>
+               <a class="product-image" href="#productlink"><img src=""></a>
+               <dl>
+                 <dt>Qty:</dt>
+                 <dd>1</dd>
+                 <dt class="price-label">Price:</dt>
+                 <dd>
+                   <span class="price">64 points</span>
+                 </dd>
+               </dl>
+               <a class="" href="#remove" title="Remove item" onclick="">Remove item</a>
+             </li>
+           </ol>
+           <p class="subtotal cart-label">
+             <span>Subtotal:</span>
+             <span class="price">64 points</span>
+           </p>
+           <div class="actions">
+             <a class="btn btn-primary btn-medium" href="#viewcart">View Cart</a>
+             <a class="btn btn-primary btn-medium" href="#checkout">Checkout</a>
+           </div>-->
+        </div>
+      </div>
+    </div>
+    <div data-target="navbar-search" id="navbar-search" class="dt-item collapse-item">
+      <div class="search-holder">
+        <label for="search" class="mi-search"></label>
+        <input type="text" name="search-input" maxlength="128" id="search" class="text-input" placeholder="Search" autocomplete="off">
+      </div>
+    </div>
+    <div id="navbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Something</a></li>
+        <li><a href="#">Else</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- NAVBAR-END -->
+<!-- MAIN -->
+
+<div class="main-content">
+ <!-- <div class="content-header">
+    <div class="container">
+      <h1>Hello World</h1>
+    </div>
+  </div>-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="slider" data-target="frontpage-slider">
+          <a class="control control_prev mi-left-small"></a>
+          <a class="control control_next mi-right-small"></a>
+          <ul class="slider-holder">
+
+          </ul>
+          <div class="crumb-list">
+            <ul>
+              <li><a class="crumb active"></a></li>
+              <li><a class="crumb"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="widget-body">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- MAIN-END -->
+<!-- FOOTER -->
+
+<footer class="footer">
+  <div class="footer-top">
+    <div class="container">
+    <div class="row">
+       <div class="col-md-4">
+          <a class="collapse-toggle" data-toggle="footer-info">
+            <h3>Information</h3>
+          </a>
+          <ul class="collapse-item collapse-mob" data-target="footer-info">
+            <li><a href="#about">About</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#thems">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <a class="collapse-toggle" data-toggle="footer-support">
+            <h3>Support</h3>
+          </a>
+          <ul class="collapse-item collapse-mob" data-target="footer-support">
+            <li><a href="#FAQ">FAQ</a></li>
+            <li><a href="#licensing">Licensing</a></li>
+            <li><a href="#sitemap">Sitemap</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <a class="collapse-toggle" data-toggle="footer-account">
+            <h3>My Account</h3>
+          </a>
+          <ul class="collapse-item collapse-mob" data-target="footer-account">
+            <li><a href="#account">My Account</a></li>
+            <li><a href="#purchases">Purchases</a></li>
+            <li><a href="#news">Newsletter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p class="l">© 2015 Egor's Webshop with no name</p>
+      <div class="r footer-social">
+        <a href="#twitter"><span class="soc-icon mi-twitter r"></span></a>
+        <a href="#facebook"><span class="soc-icon mi-facebook r"></span></a>
+        <a href="#youtube"><span class="soc-icon mi-youtube r"></span></a>
+        <a href="#googleplus"><span class="soc-icon mi-gplus r"></span></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- FOOTER-END -->
+
+
+
+<!-- build:js scripts/main.js -->
+<script src="bower_components/jquery/jquery.js"></script>
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+
+<!-- build:js scripts/vendor/bootstrap.js -->
+<script src="bower_components/bootstrap/js/affix.js"></script>
+<script src="bower_components/bootstrap/js/alert.js"></script>
+<script src="bower_components/bootstrap/js/dropdown.js"></script>
+<script src="bower_components/bootstrap/js/tooltip.js"></script>
+<script src="bower_components/bootstrap/js/modal.js"></script>
+<script src="bower_components/bootstrap/js/transition.js"></script>
+<script src="bower_components/bootstrap/js/button.js"></script>
+<script src="bower_components/bootstrap/js/popover.js"></script>
+<script src="bower_components/bootstrap/js/carousel.js"></script>
+<script src="bower_components/bootstrap/js/scrollspy.js"></script>
+<script src="bower_components/bootstrap/js/collapse.js"></script>
+<script src="bower_components/bootstrap/js/tab.js"></script>
+<!-- endbuild -->
+</body>
+</html>

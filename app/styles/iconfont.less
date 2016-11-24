@@ -1,0 +1,86 @@
+@iconfont-path: "../fonts/mainicons";
+
+@font-face {
+  font-family: "mainicons";
+  src:url("@{iconfont-path}/mainicons.eot");
+  src:url("@{iconfont-path}/mainicons.eot?#iefix") format("embedded-opentype"),
+  url("@{iconfont-path}/mainicons.woff") format("woff"),
+  url("@{iconfont-path}/mainicons.ttf") format("truetype"),
+  url("@{iconfont-path}/mainicons.svg#mainicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "mainicons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="mi-"]:before,
+[class*=" mi-"]:before {
+  font-family: "mainicons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mi-user:before {
+  content: "a";
+}
+.mi-search:before {
+  content: "b";
+}
+.mi-cart:before {
+  content: "c";
+}
+.mi-twitter:before {
+  content: "f";
+}
+.mi-facebook:before {
+  content: "d";
+}
+.mi-youtube:before {
+  content: "g";
+}
+.mi-gplus:before {
+  content: "e";
+}
+.mi-download:before {
+  content: "h";
+}
+.mi-bag:before {
+  content: "i";
+}
+.mi-right-small:before {
+  content: "l";
+}
+.mi-down-small:before {
+  content: "j";
+}
+.mi-left-small:before {
+  content: "k";
+}
+.mi-up-small:before {
+  content: "m";
+}
+.mi-crumb-full:before {
+  content: "n";
+}
+.mi-crumb-hollow:before {
+  content: "o";
+}
+
+
